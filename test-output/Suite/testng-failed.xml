@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.rp.qa.extendreport.Testlistener"/>
+  </listeners>
+  <test thread-count="2" name="chrome Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.royalprestige.Kithchen_nutraese">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="Toverifylink_kitchencharm"/>
+          <include name="Toverifylink_Nutraese"/>
+        </methods>
+      </class> <!-- com.royalprestige.Kithchen_nutraese -->
+    </classes>
+  </test> <!-- chrome Test(failed) -->
+  <test thread-count="2" name="firefox Test(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.royalprestige.Kithchen_nutraese">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="Toverifylink_kitchencharm"/>
+          <include name="Toverifylink_Nutraese"/>
+        </methods>
+      </class> <!-- com.royalprestige.Kithchen_nutraese -->
+    </classes>
+  </test> <!-- firefox Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

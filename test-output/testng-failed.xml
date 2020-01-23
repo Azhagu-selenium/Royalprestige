@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.royalprestige.Rp_brokenlinks_Allsites">
+        <methods>
+          <include name="Toverifylink_Colombia"/>
+          <include name="Toverifylink_Mexico"/>
+          <include name="Toverifylink_US_Span"/>
+          <include name="Toverifylink_Brazil"/>
+          <include name="Toverifylink_Argentina"/>
+          <include name="Toverifylink_US_Eng"/>
+          <include name="Toverifylink_CA_Span"/>
+          <include name="Toverifylink_Peru"/>
+          <include name="setup"/>
+          <include name="Toverifylink_Dominicano"/>
+          <include name="Toverifylink_Ecudor"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.royalprestige.Rp_brokenlinks_Allsites -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

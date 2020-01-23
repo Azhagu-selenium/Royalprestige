@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Royalprestige Suite]">
+  <listeners>
+    <listener class-name="com.rp.qa.extendreport.Testlistener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.royalprestige.Rp_brokenlinks_Allsites">
+        <methods>
+          <include name="Toverifylink_Mexico"/>
+          <include name="setup"/>
+          <include name="Toverifylink_Ecudor"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.royalprestige.Rp_brokenlinks_Allsites -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Royalprestige Suite] -->
